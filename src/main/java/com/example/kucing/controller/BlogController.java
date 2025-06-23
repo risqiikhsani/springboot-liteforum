@@ -1,7 +1,5 @@
 package com.example.kucing.controller;
 
-import java.util.List;
-
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.kucing.dto.BlogDTO;
 import com.example.kucing.entities.Blog;
-import com.example.kucing.repository.BlogRepository;
 import com.example.kucing.services.BlogService;
 
 import lombok.AllArgsConstructor;

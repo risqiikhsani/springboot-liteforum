@@ -1,7 +1,8 @@
 package com.example.kucing.specification;
 
-import com.example.kucing.entities.User;
 import org.springframework.data.jpa.domain.Specification;
+
+import com.example.kucing.entities.User;
 
 public class UserSpecifications {
     public static Specification<User> containsKeyword(String keyword) {

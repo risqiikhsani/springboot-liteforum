@@ -1,8 +1,5 @@
 package com.example.kucing.dto;
 
-import com.example.kucing.entities.Blog;
-import com.example.kucing.entities.User;
-
 import lombok.Data;
 
 @Data
